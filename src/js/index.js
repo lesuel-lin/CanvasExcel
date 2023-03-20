@@ -1,8 +1,8 @@
 "use strict"
+
 const CELL_BG_ID = "cell_bg";
 const CELL_GRID_ID = "cell_grid";
 let dpr = window.devicePixelRatio; // 设备像素比
-
 // 监听视图size改变
 window.onresize = (e) => {
   dpr = window.devicePixelRatio;
